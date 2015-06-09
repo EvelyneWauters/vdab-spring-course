@@ -3,6 +3,8 @@ package com.realdolmen.spring.service;
 import com.realdolmen.spring.domain.Animal;
 import com.realdolmen.spring.domain.Visitor;
 
+import java.util.List;
+
 /**
  * Created by cda5732 on 25/03/2015.
  */
@@ -17,5 +19,9 @@ public interface Zoo {
 
     int countAnimals();
 
-    // TODO add method to feed animals
+
+    // add method to feed animals
+    void feedAnimal();
+
+    List<Animal> getAnimals();
 }

@@ -11,11 +11,11 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class ApplicationConfiguration {
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(ApplicationConfiguration.class);
+        ConfigurableApplicationContext context = SpringApplication.run(ZooConfig.class);
         Zoo zoo = context.getBean(Zoo.class);
         System.out.println(zoo.getName());
         System.out.println("Nr. of Animals: " + zoo.countAnimals());
         // TODO call the method to feed the animals
-
+        //zoo.feedAnimal();
     }
 }
