@@ -51,7 +51,7 @@ public class PairiDaiza implements Zoo {
 
     // TODO Call the FoodDistributionService to feed animals
     @Override
-    public void feedAnimal() {
+    public void feedAnimals() {
         foodDistributionService.feedAnimalsByType(animals);
         System.out.println("feeding...");
     }

@@ -20,7 +20,14 @@ public abstract class Animal {
         this.name = name;
     }
 
-    public abstract void feed(Food f);
-
     // TODO Feed the Animal some Food
+    public void feed(Food f)   {
+        System.out.print("omnomnomnom... ");
+    }
+
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName() + " " + getName() ;
+    }
+
 }

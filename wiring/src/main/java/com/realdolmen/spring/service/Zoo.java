@@ -21,7 +21,7 @@ public interface Zoo {
 
 
     // add method to feed animals
-    void feedAnimal();
+    void feedAnimals();
 
     List<Animal> getAnimals();
 }
