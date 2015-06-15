@@ -12,6 +12,12 @@ public class Elephant extends Animal {
 
     @Override
     public void feed(Food f) {
+        System.out.print("schmickschmack...");
 
     }
+
+//    @Override
+//    public String getName() {
+//        return "Elephant" + getName();
+//    }
 }

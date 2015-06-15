@@ -12,6 +12,12 @@ public class Tiger extends Animal {
 
     @Override
     public void feed(Food f) {
+        System.out.print("omnomnomnommiauw...");
 
     }
+
+//    @Override
+//    public String getName() {
+//        return "Tiger" + getName();
+//    }
 }

@@ -12,6 +12,14 @@ public class Bear extends Animal {
 
     @Override
     public void feed(Food f) {
+        System.out.print("omnomnomnom...");
 
     }
+
+//    @Override
+//    public void testThis() {
+//
+//    }
+
+
 }

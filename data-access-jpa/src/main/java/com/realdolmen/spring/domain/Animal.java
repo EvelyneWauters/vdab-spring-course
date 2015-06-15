@@ -15,14 +15,11 @@ public class Animal {
     }
 
     private Integer id;
-
     private String name;
-
     private Type type;
-
     private int age;
-
     private String tag;
+
 
     public Animal() {
     }

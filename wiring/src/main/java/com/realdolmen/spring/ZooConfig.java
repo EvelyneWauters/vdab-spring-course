@@ -37,6 +37,7 @@ public class ZooConfig {
         foodRepository.addFoodForAnimalType(Bear.class, new MeatyFood());
         foodRepository.addFoodForAnimalType(Tiger.class, new MeatyFood());
         foodRepository.addFoodForAnimalType(Elephant.class, new VeggieFood());
+
         return foodRepository;
     }
 

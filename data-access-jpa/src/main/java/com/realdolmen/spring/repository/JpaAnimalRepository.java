@@ -1,6 +1,34 @@
 package com.realdolmen.spring.repository;
 
-public class JpaAnimalRepository {
+import com.realdolmen.spring.domain.Animal;
+
+import java.util.List;
+
+public class JpaAnimalRepository implements AnimalRepository {
+    @Override
+    public void create(Animal animal) {
+
+    }
+
+    @Override
+    public Animal findById(int id) {
+        return null;
+    }
+
+    @Override
+    public List<Animal> findAll() {
+        return null;
+    }
+
+    @Override
+    public void update(Animal animal) {
+
+    }
+
+    @Override
+    public void remove(Animal animal) {
+
+    }
     // TODO: create a transactional repository bean from this class
 
     // TODO: inject a persistence context
